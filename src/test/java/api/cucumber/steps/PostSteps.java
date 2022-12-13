@@ -11,7 +11,7 @@ public class PostSteps {
     @Given("^User should be logged in and should be present at its own wall$")
     public void user_should_be_logged_in_and_should_be_present_at_its_own_wall() throws Throwable {
         System.out.println("user_should_be_logged_in_and_should_be_present_at_its_own_wall");
-        System.out.println("user is on log on page");
+
     }
 
     @When("^I type the message as \"([^\"]*)\" in the text box$")
