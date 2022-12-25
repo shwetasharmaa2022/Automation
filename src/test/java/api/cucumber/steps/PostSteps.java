@@ -17,7 +17,7 @@ public class PostSteps {
     @When("^I type the message as \"([^\"]*)\" in the text box$")
     public void i_type_the_message_as_in_the_text_box(String text) throws Throwable {
         System.out.println("text");
-
+ System.out.println("copy");
     }
 
     @And("^Click on post button$")
